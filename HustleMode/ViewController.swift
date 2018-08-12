@@ -33,6 +33,10 @@ class ViewController: UIViewController {
         } catch let error as NSError {
             print(error.description)
         }
+        
+        NetworkManager.getNewMovies(page: 1, completion: { movies in
+            
+        })
     }
 
     override func didReceiveMemoryWarning() {

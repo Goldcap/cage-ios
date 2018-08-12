@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121CCAA42120ED77005EAC8F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CCAA32120ED77005EAC8F /* Models.swift */; };
+		121CCAA82120F068005EAC8F /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CCAA72120F068005EAC8F /* Controller.swift */; };
+		121CCAAA2120F24B005EAC8F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CCAA92120F24B005EAC8F /* Network.swift */; };
 		12D1174E211F6E02006CA825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D1174D211F6E02006CA825 /* AppDelegate.swift */; };
 		12D11750211F6E02006CA825 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D1174F211F6E02006CA825 /* ViewController.swift */; };
 		12D11753211F6E02006CA825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D11751211F6E02006CA825 /* Main.storyboard */; };
@@ -39,6 +42,10 @@
 
 /* Begin PBXFileReference section */
 		0AE23F06ADDB26ECEF3076C0 /* Pods_HustleModeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HustleModeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		121CCAA32120ED77005EAC8F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		121CCAA62120EF4D005EAC8F /* movieFixture.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movieFixture.json; sourceTree = "<group>"; };
+		121CCAA72120F068005EAC8F /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		121CCAA92120F24B005EAC8F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		12D1174A211F6E02006CA825 /* HustleMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HustleMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D1174D211F6E02006CA825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12D1174F211F6E02006CA825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,9 +98,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121CCAA22120ED4B005EAC8F /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				121CCAA72120F068005EAC8F /* Controller.swift */,
+				121CCAA52120EF0D005EAC8F /* Data */,
+				121CCAA32120ED77005EAC8F /* Models.swift */,
+				121CCAA92120F24B005EAC8F /* Network.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		121CCAA52120EF0D005EAC8F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				121CCAA62120EF4D005EAC8F /* movieFixture.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		12D11741211F6E02006CA825 = {
 			isa = PBXGroup;
 			children = (
+				121CCAA22120ED4B005EAC8F /* Notes */,
 				12D1174C211F6E02006CA825 /* HustleMode */,
 				12D11761211F6E04006CA825 /* HustleModeTests */,
 				12D1176C211F6E04006CA825 /* HustleModeUITests */,
@@ -383,6 +410,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121CCAAA2120F24B005EAC8F /* Network.swift in Sources */,
+				121CCAA42120ED77005EAC8F /* Models.swift in Sources */,
+				121CCAA82120F068005EAC8F /* Controller.swift in Sources */,
 				12D11750211F6E02006CA825 /* ViewController.swift in Sources */,
 				12D1174E211F6E02006CA825 /* AppDelegate.swift in Sources */,
 			);

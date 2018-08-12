@@ -1,0 +1,51 @@
+
+{
+    "page": 1,
+    "total_results": 6452,
+    "total_pages": 323,
+    "results": [
+                {
+                "vote_count": 78,
+                "id": 374430,
+                "video": false,
+                "vote_average": 8.8,
+                "title": "Black Mirror: White Christmas",
+                "popularity": 3.055805,
+                "poster_path": "/he609rnU3tiwBjRklKNa4n2jQSd.jpg",
+                "original_language": "en",
+                "original_title": "Black Mirror: White Christmas",
+                "genre_ids": [
+                              18,
+                              27,
+                              9648,
+                              878,
+                              53,
+                              10770
+                              ],
+                "backdrop_path": "/rMCew7St2vy9iV3QOPzx15sAkFJ.jpg",
+                "adult": false,
+                "overview": "This feature-length special consists of three interwoven stories. In a mysterious and remote snowy outpost, Matt and Potter share a Christmas meal, swapping creepy tales of their earlier lives in the outside world. Matt is a charismatic American trying to bring the reserved, secretive Potter out of his shell. But are both men who they appear to be? A woman gets thrust into a nightmarish world of 'smart' gadgetry. Plus a look at what would happen if you could 'block' people in real life.",
+                "release_date": "2014-12-16"
+                },
+                {
+                "vote_count": 305,
+                "id": 19404,
+                "video": false,
+                "vote_average": 8.7,
+                "title": "Dilwale Dulhania Le Jayenge",
+                "popularity": 4.194123,
+                "poster_path": "/2gvbZMtV1Zsl7FedJa5ysbpBx2G.jpg",
+                "original_language": "gu",
+                "original_title": "Dilwale Dulhania Le Jayenge",
+                "genre_ids": [
+                              35,
+                              18,
+                              10749
+                              ],
+                "backdrop_path": "/nl79FQ8xWZkhL3rDr1v2RFFR6J0.jpg",
+                "adult": false,
+                "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+                "release_date": "1995-10-19"
+                }]
+}
+view rawMovieJSON.json hosted with ❤ by GitHub
