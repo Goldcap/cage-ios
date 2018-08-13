@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         }
         
         NetworkManager.getNewMovies(page: 1, completion: { movies in
-            
+            print(movies)
         })
     }
 

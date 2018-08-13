@@ -42,26 +42,12 @@ extension MovieApi: TargetType {
         }
     }
     
-    var parameters: [String : Any]? {
-        switch self {
-        case .reco, .video:
-            return ["api_key": NetworkManager.MovieAPIKey]
-        case .topRated(let page), .newMovies(let page):
-            return ["page": page, "api_key": NetworkManager.MovieAPIKey]
-        }
-    }
-    
-    var parameterEncoding: ParameterEncoding {
-        switch self {
-        case .reco, .topRated, .newMovies, .video:
-            return URLEncoding.queryString
-        }
-    }
-    
     var task: Task {
         switch self {
-        case .reco, .topRated, .newMovies, .video:
-            return .requestPlain
+        case .reco, .video:
+            return .requestParameters(parameters: ["api_key": NetworkManager.MovieAPIKey], encoding: URLEncoding.queryString)
+        case .topRated(let page), .newMovies(let page):
+            return .requestParameters(parameters: ["page": page, "api_key": NetworkManager.MovieAPIKey], encoding: URLEncoding.queryString)
         }
     }
 }
