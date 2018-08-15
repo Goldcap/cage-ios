@@ -1,15 +1,15 @@
 //
-//  HustleModeTests.swift
-//  HustleModeTests
+//  CageTests.swift
+//  CageTests
 //
 //  Created by Madsen, Andy on 8/11/18.
 //  Copyright © 2018 Madsen, Andy. All rights reserved.
 //
 
 import XCTest
-@testable import HustleMode
+@testable import Cage
 
-class HustleModeTests: XCTestCase {
+class CageTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
