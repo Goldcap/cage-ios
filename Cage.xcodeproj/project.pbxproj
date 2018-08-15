@@ -18,6 +18,8 @@
 		12D11763211F6E04006CA825 /* HustleModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D11762211F6E04006CA825 /* HustleModeTests.swift */; };
 		12D1176E211F6E04006CA825 /* HustleModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D1176D211F6E04006CA825 /* HustleModeUITests.swift */; };
 		6A8EC139212499C5009669C2 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A8EC138212499C5009669C2 /* hustle-on.wav */; };
+		6A9F80192124AD5D00098E0F /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9F80182124AD5D00098E0F /* NoteCell.swift */; };
+		6A9F801B2124B89200098E0F /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9F801A2124B89200098E0F /* Note.swift */; };
 		A34F17664D9DB92429D281FC /* Pods_HustleModeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE23F06ADDB26ECEF3076C0 /* Pods_HustleModeTests.framework */; };
 		D1841F42AB34AE740302B0D1 /* Pods_HustleMode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A931CF63FAE617A0C92E2A3 /* Pods_HustleMode.framework */; };
 		F79CD4416C5FB782FF6EA05A /* Pods_HustleModeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FD2BF204F19C59AB0B1DF2 /* Pods_HustleModeUITests.framework */; };
@@ -64,6 +66,8 @@
 		4A931CF63FAE617A0C92E2A3 /* Pods_HustleMode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HustleMode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7421B6582C1A78B015AD67 /* Pods-HustleModeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HustleModeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HustleModeTests/Pods-HustleModeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A8EC138212499C5009669C2 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
+		6A9F80182124AD5D00098E0F /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		6A9F801A2124B89200098E0F /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		7065D9017F5E6DFAB0258FA6 /* Pods-HustleMode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HustleMode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HustleMode/Pods-HustleMode.debug.xcconfig"; sourceTree = "<group>"; };
 		75FD2BF204F19C59AB0B1DF2 /* Pods_HustleModeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HustleModeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36E937347F42D5BFF00EF01 /* Pods-HustleModeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HustleModeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HustleModeTests/Pods-HustleModeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 				6A8EC138212499C5009669C2 /* hustle-on.wav */,
 				12D1174D211F6E02006CA825 /* AppDelegate.swift */,
 				12D1174F211F6E02006CA825 /* ViewController.swift */,
+				6A9F80182124AD5D00098E0F /* NoteCell.swift */,
+				6A9F801A2124B89200098E0F /* Note.swift */,
 				12D11751211F6E02006CA825 /* Main.storyboard */,
 				12D11754211F6E04006CA825 /* Assets.xcassets */,
 				12D11756211F6E04006CA825 /* LaunchScreen.storyboard */,
@@ -412,7 +418,9 @@
 			files = (
 				121CCAAA2120F24B005EAC8F /* Network.swift in Sources */,
 				121CCAA42120ED77005EAC8F /* Models.swift in Sources */,
+				6A9F801B2124B89200098E0F /* Note.swift in Sources */,
 				121CCAA82120F068005EAC8F /* Controller.swift in Sources */,
+				6A9F80192124AD5D00098E0F /* NoteCell.swift in Sources */,
 				12D11750211F6E02006CA825 /* ViewController.swift in Sources */,
 				12D1174E211F6E02006CA825 /* AppDelegate.swift in Sources */,
 			);
@@ -595,7 +603,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HustleMode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -614,7 +622,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HustleMode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

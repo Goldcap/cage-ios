@@ -11,6 +11,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var blueBG: UIImageView!
     @IBOutlet weak var onBtn: UIButton!
     @IBOutlet weak var cloudHolder: UIView!
@@ -19,6 +20,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var onLbl: UILabel!
     
     var player: AVAudioPlayer!
+    var notes: [Movie] = []
+    
+    fileprivate func showAlert(_ title: String, message: String) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(okAction)
+        present(alertController, animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,9 +43,19 @@ class ViewController: UIViewController {
             print(error.description)
         }
         
+        tableView.delegate = self
+        tableView.dataSource = self
+        
         NetworkManager.getNewMovies(page: 1, completion: { movies in
-            print(movies)
+            // self.notes = movies
+            for movie in movies {
+                self.notes.append(movie)
+            }
+            
+            self.tableView.reloadData()
+            self.showAlert("Movie Fetch", message: "DONE!!")
         })
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -61,3 +80,27 @@ class ViewController: UIViewController {
     }
 }
 
+extension ViewController: NoteCellDelegate {
+    
+    func didViewMore(title: String) {
+        self.showAlert("Movie Click", message: title)
+    }
+}
+
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return notes.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let note = notes[indexPath.row]
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NoteCell" ) as! NoteCell
+        
+        cell.setNote(note: note)
+        cell.delegate = self
+        
+        return cell
+    }
+}
