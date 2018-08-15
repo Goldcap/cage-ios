@@ -17,7 +17,7 @@
 		12D11758211F6E04006CA825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D11756211F6E04006CA825 /* LaunchScreen.storyboard */; };
 		12D11763211F6E04006CA825 /* HustleModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D11762211F6E04006CA825 /* HustleModeTests.swift */; };
 		12D1176E211F6E04006CA825 /* HustleModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D1176D211F6E04006CA825 /* HustleModeUITests.swift */; };
-		12D1177C211F6F20006CA825 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 12D1177B211F6F20006CA825 /* hustle-on.wav */; };
+		6A8EC139212499C5009669C2 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A8EC138212499C5009669C2 /* hustle-on.wav */; };
 		A34F17664D9DB92429D281FC /* Pods_HustleModeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE23F06ADDB26ECEF3076C0 /* Pods_HustleModeTests.framework */; };
 		D1841F42AB34AE740302B0D1 /* Pods_HustleMode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A931CF63FAE617A0C92E2A3 /* Pods_HustleMode.framework */; };
 		F79CD4416C5FB782FF6EA05A /* Pods_HustleModeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FD2BF204F19C59AB0B1DF2 /* Pods_HustleModeUITests.framework */; };
@@ -46,24 +46,24 @@
 		121CCAA62120EF4D005EAC8F /* movieFixture.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movieFixture.json; sourceTree = "<group>"; };
 		121CCAA72120F068005EAC8F /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		121CCAA92120F24B005EAC8F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		12D1174A211F6E02006CA825 /* HustleMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HustleMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D1174A211F6E02006CA825 /* Cage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D1174D211F6E02006CA825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12D1174F211F6E02006CA825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12D11752211F6E02006CA825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12D11754211F6E04006CA825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12D11757211F6E04006CA825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12D11759211F6E04006CA825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12D1175E211F6E04006CA825 /* HustleModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HustleModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D1175E211F6E04006CA825 /* CageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D11762211F6E04006CA825 /* HustleModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HustleModeTests.swift; sourceTree = "<group>"; };
 		12D11764211F6E04006CA825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12D11769211F6E04006CA825 /* HustleModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HustleModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D11769211F6E04006CA825 /* CageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D1176D211F6E04006CA825 /* HustleModeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HustleModeUITests.swift; sourceTree = "<group>"; };
 		12D1176F211F6E04006CA825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12D1177B211F6F20006CA825 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hustle-on.wav"; path = "../../../../../../../Users/madseand/Downloads/hustle-mode-code-assets/assets/Assets/hustle-on.wav"; sourceTree = "<group>"; };
 		1E287C9DF355C6B6ED04DD1E /* Pods-HustleMode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HustleMode.release.xcconfig"; path = "Pods/Target Support Files/Pods-HustleMode/Pods-HustleMode.release.xcconfig"; sourceTree = "<group>"; };
 		3FA17AAE127FE82D07B7E79D /* Pods-HustleModeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HustleModeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HustleModeUITests/Pods-HustleModeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A931CF63FAE617A0C92E2A3 /* Pods_HustleMode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HustleMode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7421B6582C1A78B015AD67 /* Pods-HustleModeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HustleModeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HustleModeTests/Pods-HustleModeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A8EC138212499C5009669C2 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 		7065D9017F5E6DFAB0258FA6 /* Pods-HustleMode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HustleMode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HustleMode/Pods-HustleMode.debug.xcconfig"; sourceTree = "<group>"; };
 		75FD2BF204F19C59AB0B1DF2 /* Pods_HustleModeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HustleModeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36E937347F42D5BFF00EF01 /* Pods-HustleModeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HustleModeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HustleModeTests/Pods-HustleModeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,9 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				121CCAA22120ED4B005EAC8F /* Notes */,
-				12D1174C211F6E02006CA825 /* HustleMode */,
-				12D11761211F6E04006CA825 /* HustleModeTests */,
-				12D1176C211F6E04006CA825 /* HustleModeUITests */,
+				12D1174C211F6E02006CA825 /* Cage */,
+				12D11761211F6E04006CA825 /* CageTests */,
+				12D1176C211F6E04006CA825 /* CageUITests */,
 				12D1174B211F6E02006CA825 /* Products */,
 				C0BDC8AA4287BB5B1C897626 /* Pods */,
 				201043713686DA2DDEAB560E /* Frameworks */,
@@ -133,17 +133,17 @@
 		12D1174B211F6E02006CA825 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12D1174A211F6E02006CA825 /* HustleMode.app */,
-				12D1175E211F6E04006CA825 /* HustleModeTests.xctest */,
-				12D11769211F6E04006CA825 /* HustleModeUITests.xctest */,
+				12D1174A211F6E02006CA825 /* Cage.app */,
+				12D1175E211F6E04006CA825 /* CageTests.xctest */,
+				12D11769211F6E04006CA825 /* CageUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		12D1174C211F6E02006CA825 /* HustleMode */ = {
+		12D1174C211F6E02006CA825 /* Cage */ = {
 			isa = PBXGroup;
 			children = (
-				12D1177B211F6F20006CA825 /* hustle-on.wav */,
+				6A8EC138212499C5009669C2 /* hustle-on.wav */,
 				12D1174D211F6E02006CA825 /* AppDelegate.swift */,
 				12D1174F211F6E02006CA825 /* ViewController.swift */,
 				12D11751211F6E02006CA825 /* Main.storyboard */,
@@ -151,25 +151,25 @@
 				12D11756211F6E04006CA825 /* LaunchScreen.storyboard */,
 				12D11759211F6E04006CA825 /* Info.plist */,
 			);
-			path = HustleMode;
+			path = Cage;
 			sourceTree = "<group>";
 		};
-		12D11761211F6E04006CA825 /* HustleModeTests */ = {
+		12D11761211F6E04006CA825 /* CageTests */ = {
 			isa = PBXGroup;
 			children = (
 				12D11762211F6E04006CA825 /* HustleModeTests.swift */,
 				12D11764211F6E04006CA825 /* Info.plist */,
 			);
-			path = HustleModeTests;
+			path = CageTests;
 			sourceTree = "<group>";
 		};
-		12D1176C211F6E04006CA825 /* HustleModeUITests */ = {
+		12D1176C211F6E04006CA825 /* CageUITests */ = {
 			isa = PBXGroup;
 			children = (
 				12D1176D211F6E04006CA825 /* HustleModeUITests.swift */,
 				12D1176F211F6E04006CA825 /* Info.plist */,
 			);
-			path = HustleModeUITests;
+			path = CageUITests;
 			sourceTree = "<group>";
 		};
 		201043713686DA2DDEAB560E /* Frameworks */ = {
@@ -198,9 +198,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		12D11749211F6E02006CA825 /* HustleMode */ = {
+		12D11749211F6E02006CA825 /* Cage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12D11772211F6E04006CA825 /* Build configuration list for PBXNativeTarget "HustleMode" */;
+			buildConfigurationList = 12D11772211F6E04006CA825 /* Build configuration list for PBXNativeTarget "Cage" */;
 			buildPhases = (
 				B32E22E03A35198BEE303EE5 /* [CP] Check Pods Manifest.lock */,
 				12D11746211F6E02006CA825 /* Sources */,
@@ -212,14 +212,14 @@
 			);
 			dependencies = (
 			);
-			name = HustleMode;
+			name = Cage;
 			productName = HustleMode;
-			productReference = 12D1174A211F6E02006CA825 /* HustleMode.app */;
+			productReference = 12D1174A211F6E02006CA825 /* Cage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		12D1175D211F6E04006CA825 /* HustleModeTests */ = {
+		12D1175D211F6E04006CA825 /* CageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12D11775211F6E04006CA825 /* Build configuration list for PBXNativeTarget "HustleModeTests" */;
+			buildConfigurationList = 12D11775211F6E04006CA825 /* Build configuration list for PBXNativeTarget "CageTests" */;
 			buildPhases = (
 				DEDD76EEBFB57DFD25730C67 /* [CP] Check Pods Manifest.lock */,
 				12D1175A211F6E04006CA825 /* Sources */,
@@ -231,14 +231,14 @@
 			dependencies = (
 				12D11760211F6E04006CA825 /* PBXTargetDependency */,
 			);
-			name = HustleModeTests;
+			name = CageTests;
 			productName = HustleModeTests;
-			productReference = 12D1175E211F6E04006CA825 /* HustleModeTests.xctest */;
+			productReference = 12D1175E211F6E04006CA825 /* CageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		12D11768211F6E04006CA825 /* HustleModeUITests */ = {
+		12D11768211F6E04006CA825 /* CageUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12D11778211F6E04006CA825 /* Build configuration list for PBXNativeTarget "HustleModeUITests" */;
+			buildConfigurationList = 12D11778211F6E04006CA825 /* Build configuration list for PBXNativeTarget "CageUITests" */;
 			buildPhases = (
 				9902A0046CBC1568C2549EE5 /* [CP] Check Pods Manifest.lock */,
 				12D11765211F6E04006CA825 /* Sources */,
@@ -250,9 +250,9 @@
 			dependencies = (
 				12D1176B211F6E04006CA825 /* PBXTargetDependency */,
 			);
-			name = HustleModeUITests;
+			name = CageUITests;
 			productName = HustleModeUITests;
-			productReference = 12D11769211F6E04006CA825 /* HustleModeUITests.xctest */;
+			productReference = 12D11769211F6E04006CA825 /* CageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -278,7 +278,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 12D11745211F6E02006CA825 /* Build configuration list for PBXProject "HustleMode" */;
+			buildConfigurationList = 12D11745211F6E02006CA825 /* Build configuration list for PBXProject "Cage" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -291,9 +291,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12D11749211F6E02006CA825 /* HustleMode */,
-				12D1175D211F6E04006CA825 /* HustleModeTests */,
-				12D11768211F6E04006CA825 /* HustleModeUITests */,
+				12D11749211F6E02006CA825 /* Cage */,
+				12D1175D211F6E04006CA825 /* CageTests */,
+				12D11768211F6E04006CA825 /* CageUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -303,7 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12D1177C211F6F20006CA825 /* hustle-on.wav in Resources */,
+				6A8EC139212499C5009669C2 /* hustle-on.wav in Resources */,
 				12D11758211F6E04006CA825 /* LaunchScreen.storyboard in Resources */,
 				12D11755211F6E04006CA825 /* Assets.xcassets in Resources */,
 				12D11753211F6E02006CA825 /* Main.storyboard in Resources */,
@@ -439,12 +439,12 @@
 /* Begin PBXTargetDependency section */
 		12D11760211F6E04006CA825 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 12D11749211F6E02006CA825 /* HustleMode */;
+			target = 12D11749211F6E02006CA825 /* Cage */;
 			targetProxy = 12D1175F211F6E04006CA825 /* PBXContainerItemProxy */;
 		};
 		12D1176B211F6E04006CA825 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 12D11749211F6E02006CA825 /* HustleMode */;
+			target = 12D11749211F6E02006CA825 /* Cage */;
 			targetProxy = 12D1176A211F6E04006CA825 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -590,7 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K23GTSGWVR;
-				INFOPLIST_FILE = HustleMode/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Cage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -609,7 +609,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K23GTSGWVR;
-				INFOPLIST_FILE = HustleMode/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Cage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,7 +639,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HustleMode.app/HustleMode";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cage.app/Cage";
 			};
 			name = Debug;
 		};
@@ -661,7 +661,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HustleMode.app/HustleMode";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cage.app/Cage";
 			};
 			name = Release;
 		};
@@ -710,7 +710,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12D11745211F6E02006CA825 /* Build configuration list for PBXProject "HustleMode" */ = {
+		12D11745211F6E02006CA825 /* Build configuration list for PBXProject "Cage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12D11770211F6E04006CA825 /* Debug */,
@@ -719,7 +719,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12D11772211F6E04006CA825 /* Build configuration list for PBXNativeTarget "HustleMode" */ = {
+		12D11772211F6E04006CA825 /* Build configuration list for PBXNativeTarget "Cage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12D11773211F6E04006CA825 /* Debug */,
@@ -728,7 +728,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12D11775211F6E04006CA825 /* Build configuration list for PBXNativeTarget "HustleModeTests" */ = {
+		12D11775211F6E04006CA825 /* Build configuration list for PBXNativeTarget "CageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12D11776211F6E04006CA825 /* Debug */,
@@ -737,7 +737,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12D11778211F6E04006CA825 /* Build configuration list for PBXNativeTarget "HustleModeUITests" */ = {
+		12D11778211F6E04006CA825 /* Build configuration list for PBXNativeTarget "CageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12D11779211F6E04006CA825 /* Debug */,

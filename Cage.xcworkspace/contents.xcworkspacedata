@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HustleMode.xcodeproj">
+      location = "group:/var/www/html/sites/cage-ios/Cage.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
